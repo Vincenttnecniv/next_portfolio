@@ -1,5 +1,6 @@
 import Nav from "../components/Footer/Nav";
 import Head from "next/head";
+import Script from 'next/script'
 
 const About = () => {
   return (
@@ -41,6 +42,15 @@ const About = () => {
         }
       `}</style>
       <Head>
+      {/* Google tag (gtag.js)  */}
+      <Script  async src="https://www.googletagmanager.com/gtag/js?id=G-ECWH6N8FXS"></Script >
+      <Script >
+  window.dataLayer = window.dataLayer || [];
+  function gtag()dataLayer.push(arguments)
+  gtag('js', new Date());
+
+  gtag('config', 'G-ECWH6N8FXS');
+</Script>
         <title>About</title>
       </Head>
       <div>
