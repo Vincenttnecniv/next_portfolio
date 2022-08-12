@@ -38,7 +38,7 @@ const Projects = () => (
           <img
             className="img1"
             src="/static/music.png"
-            alt="My Github"
+            alt="music-site"
             width="550"
             height="450"
           />
@@ -54,7 +54,7 @@ const Projects = () => (
             <img
               className="img1"
               src="/static/soft.png"
-              alt="My Github"
+              alt="catalogue-site"
               width="550"
               height="450"
             />
@@ -71,7 +71,7 @@ const Projects = () => (
             <img
               className="img1"
               src="/static/cv.png"
-              alt="My Github"
+              alt="resume-site"
               width="550"
               height="450"
             />
@@ -87,7 +87,7 @@ const Projects = () => (
             <img
               className="img1"
               src="/static/crypto.png"
-              alt="My Github"
+              alt="crypto-site"
               width="550"
               height="450"
             />
