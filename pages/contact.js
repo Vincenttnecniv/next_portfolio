@@ -29,12 +29,12 @@ const Contact = () => {
       {/* Google tag (gtag.js)  */}
       <Script id="gtm-script"
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-ECWH6N8FXS"
+        src="https://www.googletagmanager.com/gtag/js?id=UA-237330854-1"
       ></Script>
       <Script id="gtm-script">
         window.dataLayer = window.dataLayer || []; function
         gtag()dataLayer.push(arguments) gtag(&apos;js&apos;, new Date()); gtag(&apos;config&apos;,
-          &apos;G-ECWH6N8FXS&apos;);
+          &apos;UA-237330854-1&apos;);
       </Script>
       <Head>
         <title>Contact</title>
