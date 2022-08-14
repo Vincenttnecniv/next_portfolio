@@ -27,15 +27,14 @@ const Contact = () => {
         }
       `}</style>
       {/* Google tag (gtag.js)  */}
-      <Script id="gtm-script"
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=UA-237330854-1"
-      ></Script>
-      <Script id="gtm-script">
-        window.dataLayer = window.dataLayer || []; function
-        gtag()dataLayer.push(arguments) gtag(&apos;js&apos;, new Date()); gtag(&apos;config&apos;,
-          &apos;UA-237330854-1&apos;);
-      </Script>
+      <Script id="gtm-script" async src="https://www.googletagmanager.com/gtag/js?id=G-SL86BSM10N"></Script>
+<Script id="gtm-script">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)}
+  gtag(&apos;js&apos;, new Date());
+
+  gtag(&apos;config&apos;, &apos;G-SL86BSM10N&apos;);
+</Script>
       <Head>
         <title>Contact</title>
       </Head>
