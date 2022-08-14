@@ -25,13 +25,20 @@ const Projects = () => (
       }
     `}</style>
     {/* Google tag (gtag.js)  */}
-<Script id="gtm-script" async src="https://www.googletagmanager.com/gtag/js?id=G-SL86BSM10N"></Script>
-<Script id="gtm-script">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
-  gtag(&apos;js&apos;, new Date());
+    <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_MESUREMENT_ID}`}
+      />
 
-  gtag(&apos;config&apos;, &apos;G-SL86BSM10N&apos;);
+<Script id="ga-script" strategy="lazyOnload">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '${process.env.GOOGLE_ANALYTICS_MESUREMENT_ID}', {
+      page_path: window.location.pathname,
+    });
+        `}
 </Script>
 
     
