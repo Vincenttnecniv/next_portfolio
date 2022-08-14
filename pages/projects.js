@@ -1,5 +1,6 @@
 import Nav from "../components/Footer/Nav";
 import Head from "next/head";
+import Script from "next/script";
 
 const Projects = () => (
   <>
@@ -23,6 +24,16 @@ const Projects = () => (
         padding: 30px;
       }
     `}</style>
+    {/* Google tag (gtag.js)  */}
+    <Script id="gtm-script"
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-ECWH6N8FXS"
+      ></Script>
+      <Script id="gtm-script">
+        window.dataLayer = window.dataLayer || []; function
+        gtag()dataLayer.push(arguments) gtag(&apos;js&apos;, new Date()); gtag(&apos;config&apos;,
+          &apos;G-ECWH6N8FXS&apos;);
+      </Script>
     <Head>
       <title>Projects</title>
     </Head>
@@ -37,7 +48,7 @@ const Projects = () => (
         >
           <img
             className="img1"
-            src="/static/music.png"
+            src="/static/music.PNG"
             alt="music-site"
             width="550"
             height="450"
@@ -53,7 +64,7 @@ const Projects = () => (
           >
             <img
               className="img1"
-              src="/static/soft.png"
+              src="/static/soft.PNG"
               alt="catalogue-site"
               width="550"
               height="450"
@@ -70,7 +81,7 @@ const Projects = () => (
           >
             <img
               className="img1"
-              src="/static/cv.png"
+              src="/static/cv.PNG"
               alt="resume-site"
               width="550"
               height="450"
@@ -86,7 +97,7 @@ const Projects = () => (
           >
             <img
               className="img1"
-              src="/static/crypto.png"
+              src="/static/crypto.PNG"
               alt="crypto-site"
               width="550"
               height="450"

@@ -1,5 +1,6 @@
 import Nav from "../components/Footer/Nav";
 import Head from "next/head";
+import Script from "next/script";
 
 const Contact = () => {
   return (
@@ -25,6 +26,16 @@ const Contact = () => {
           padding: 30px;
         }
       `}</style>
+      {/* Google tag (gtag.js)  */}
+      <Script id="gtm-script"
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-ECWH6N8FXS"
+      ></Script>
+      <Script id="gtm-script">
+        window.dataLayer = window.dataLayer || []; function
+        gtag()dataLayer.push(arguments) gtag(&apos;js&apos;, new Date()); gtag(&apos;config&apos;,
+          &apos;G-ECWH6N8FXS&apos;);
+      </Script>
       <Head>
         <title>Contact</title>
       </Head>
