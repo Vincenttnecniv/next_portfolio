@@ -2,6 +2,7 @@ import Nav from "../components/Footer/Nav";
 import Head from "next/head";
 import Script from "next/script";
 
+
 const About = () => {
   return (
     <>
