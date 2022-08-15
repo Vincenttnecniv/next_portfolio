@@ -36,7 +36,7 @@ const Nav = () => {
           border: 6px solid orange;
           border-radius: 36px;
           text-decoration: none;
-          height: 90%;
+          height: 35%;
           padding-top: -10px;
         }
 

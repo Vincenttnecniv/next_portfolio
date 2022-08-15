@@ -24,13 +24,16 @@ const Projects = () => (
         padding: 30px;
       }
     `}</style>
-    {/* Google tag (gtag.js)  */}
-    <Script
+
+    
+    <Head>
+           {/* Google tag (gtag.js) 
+           <script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_MESUREMENT_ID}`}
       />
 
-<Script id="ga-script" strategy="lazyOnload">
+<script id="ga-script" strategy="lazyOnload">
   {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -39,10 +42,7 @@ const Projects = () => (
       page_path: window.location.pathname,
     });
         `}
-</Script>
-
-    
-    <Head>
+</script> */}
       <title>Projects</title>
     </Head>
     <div>

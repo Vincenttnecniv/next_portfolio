@@ -40,13 +40,15 @@ const Home = () => {
           transform: rotate(360deg);
         }
       `}</style>
-      {/* Google tag (gtag.js)  */}
-      <Script
+    
+      <Head>
+          {/* Google tag (gtag.js) 
+      <script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_MESUREMENT_ID}`}
       />
 
-<Script id="ga-script" strategy="lazyOnload">
+<script id="ga-script" strategy="lazyOnload">
   {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -55,8 +57,7 @@ const Home = () => {
       page_path: window.location.pathname,
     });
         `}
-</Script>
-      <Head>
+</script> */}
         <title>Vincents&apos;s Portfolio</title>
       </Head>
       <div className="body">

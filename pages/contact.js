@@ -26,13 +26,14 @@ const Contact = () => {
           padding: 30px;
         }
       `}</style>
-      {/* Google tag (gtag.js)  */}
-      <Script
+      <Head>
+             {/* Google tag (gtag.js) 
+      <script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_MESUREMENT_ID}`}
       />
 
-<Script id="ga-script" strategy="lazyOnload">
+<script id="ga-script" strategy="lazyOnload">
   {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -41,8 +42,7 @@ const Contact = () => {
       page_path: window.location.pathname,
     });
         `}
-</Script>
-      <Head>
+</script> */}
         <title>Contact</title>
       </Head>
       <div className="github">
@@ -57,8 +57,8 @@ const Contact = () => {
             className="img1"
             src="/static/github.png"
             alt="My Github"
-            width="200"
-            height="200"
+            width="140"
+            height="140"
           />
         </a>
         <br />
@@ -72,8 +72,8 @@ const Contact = () => {
             className="img1"
             src="/static/email.png"
             alt="My Github"
-            width="200"
-            height="200"
+            width="130"
+            height="130"
           />
         </a>
         <br />
@@ -87,8 +87,8 @@ const Contact = () => {
             className="img1"
             src="/static/linkedIn.png"
             alt="My Github"
-            width="200"
-            height="200"
+            width="130"
+            height="130"
           />
         </a>
       </div>

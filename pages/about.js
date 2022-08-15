@@ -41,7 +41,7 @@ const About = () => {
           color: orange;
         }
       `}</style>
-      {/* Google tag (gtag.js)  */}
+      {/* Google tag (gtag.js) 
       <Script
         strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GOOGLE_ANALYTICS_MESUREMENT_ID}`}
@@ -56,7 +56,7 @@ const About = () => {
       page_path: window.location.pathname,
     });
         `}
-</Script>
+</Script> */}
       <Head>
         <title>About</title>
       </Head>
